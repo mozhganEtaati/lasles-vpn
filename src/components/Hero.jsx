@@ -8,13 +8,13 @@ function Hero() {
           <h1 className="text-4xl leading-tight font-bold text-brand-navy md:text-5xl">
             Want anything to be easy with <b>LaslesVPN</b>.
           </h1>
-          <p className="mt-5 max-w-md text-brand-gray">
+          <p className="mt-6 max-w-md text-brand-gray">
             Provide a network for all your needs with ease and fun using 
             <b> LaslesVPN</b> discover interesting features from us.
           </p>
           <a
             href="#signup"
-            className="mt-8 inline-block rounded-full bg-brand-red px-8 py-3.5 text-sm font-medium text-white shadow-lg shadow-brand-red/30 hover:opacity-90"
+            className="mt-8 inline-block rounded-[10px] bg-brand-red px-18 py-4 text-base font-bold text-white shadow-[0_10px_28px_rgba(245,56,56,0.35)] hover:opacity-90"
           >
             Get Started
           </a>

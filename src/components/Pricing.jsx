@@ -37,7 +37,7 @@ function Pricing() {
                 ))}
               </ul>
 
-              <p className="mt-8 text-2xl font-semibold text-brand-navy">
+              <p className="mt-8 text-center text-2xl font-semibold text-brand-navy">
                 {plan.price}
                 {plan.period && (
                   <span className="text-sm font-normal text-brand-gray"> {plan.period}</span>
@@ -46,9 +46,9 @@ function Pricing() {
 
               <button
                 type="button"
-                className={`mt-4 w-full rounded-full py-3 text-sm font-medium ${
+                className={`mx-auto mt-6 w-40 rounded-full py-3 text-sm font-medium ${
                   plan.featured
-                    ? 'bg-brand-red text-white hover:opacity-90'
+                    ? 'bg-brand-red text-white shadow-lg shadow-brand-red/30 hover:opacity-90'
                     : 'border border-brand-red text-brand-red hover:bg-brand-red hover:text-white'
                 }`}
               >

@@ -24,13 +24,13 @@ const SOCIALS = [
 
 function Footer() {
   return (
-    <footer className="mt-16 bg-gray-50 pt-24 pb-10">
+    <footer className="bg-gray-50 pt-44 pb-10">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 md:grid-cols-[2fr_1fr_1fr_1fr]">
           <div>
-            <img src={logo} alt="LaslesVPN" className="h-6 w-auto" />
+            <img src={logo} alt="LaslesVPN" className="h-8 w-auto" />
             <p className="mt-4 max-w-xs text-sm text-brand-gray">
-              LaslesVPN is a private virtual network that has unique features
+              <b>LaslesVPN </b>is a private virtual network that has unique features
               and has high security.
             </p>
             <div className="mt-5 flex gap-3">
@@ -39,12 +39,14 @@ function Footer() {
                   key={label}
                   href="#"
                   aria-label={label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-brand-navy shadow-sm hover:text-brand-red"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-brand-red shadow-[0_8px_20px_rgba(13,16,45,0.08)] hover:opacity-80"
                 >
-                  <Icon className="text-sm" />
+                  <Icon className="text-base" />
                 </a>
               ))}
             </div>
+
+            <p className="mt-8 text-sm text-gray-400">&copy;2020Lasles<b>VPN</b></p>
           </div>
 
           {LINK_COLUMNS.map((column) => (
@@ -53,7 +55,7 @@ function Footer() {
               <ul className="mt-4 space-y-3">
                 {column.links.map((link) => (
                   <li key={link}>
-                    <a href="#" className="text-sm text-brand-gray hover:text-brand-red">
+                    <a href="#" className="text-sm text-gray-500 hover:text-brand-red">
                       {link}
                     </a>
                   </li>
@@ -62,10 +64,6 @@ function Footer() {
             </div>
           ))}
         </div>
-
-        <p className="mt-16 text-center text-xs text-brand-gray">
-          &copy;2026 LaslesVPN
-        </p>
       </div>
     </footer>
   )

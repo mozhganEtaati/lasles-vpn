@@ -1,10 +1,12 @@
 function Newsletter() {
   return (
-    <section className="mx-auto max-w-6xl px-6">
-      <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-white p-10 shadow-xl md:flex-row">
+    <section className="relative z-10 mx-auto -mb-24 max-w-6xl px-6">
+      <div className="flex flex-col items-center justify-between gap-6 rounded-[10px] bg-white px-14 py-14 shadow-[0_20px_60px_rgba(13,16,45,0.1)] md:flex-row">
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-semibold text-brand-navy md:text-3xl">
-            Subscribe Now for Get Special Features!
+            Subscribe Now for
+            <br />
+            Get Special Features!
           </h2>
           <p className="mt-2 text-brand-gray">
             Let&apos;s subscribe with us and find the fun.
@@ -13,7 +15,7 @@ function Newsletter() {
 
         <button
           type="button"
-          className="shrink-0 rounded-full bg-brand-red px-8 py-3.5 text-sm font-medium text-white shadow-lg shadow-brand-red/30 hover:opacity-90"
+          className="shrink-0 rounded-[10px] bg-brand-red px-12 py-4 text-base font-bold text-white shadow-[0_10px_28px_rgba(245,56,56,0.35)] hover:opacity-90"
         >
           Subscribe Now
         </button>

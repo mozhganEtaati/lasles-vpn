@@ -20,7 +20,9 @@ function Features() {
 
         <div>
           <h2 className="text-3xl font-semibold text-brand-navy md:text-4xl">
-            We Provide Many Features You Can Use
+            We Provide Many
+            <br />
+            Features You Can Use
           </h2>
           <p className="mt-4 max-w-md text-brand-gray">
             You can explore the features that we provide with fun and have

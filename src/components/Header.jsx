@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-      <img src={logo} alt="LaslesVPN" className="h-6 w-auto" />
+      <img src={logo} alt="LaslesVPN" className="h-8 w-auto" />
 
       <nav className="hidden items-center gap-8 md:flex">
         {NAV_LINKS.map((link) => (
