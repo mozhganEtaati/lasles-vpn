@@ -10,7 +10,7 @@ export const PRICING_PLANS = [
     period: '',
     featured: false,
     features: [
-      'Unlimited Bandwitch',
+      'Unlimited Bandwidth',
       'Encrypted Connection',
       'No Traffic Logs',
       'Works on All Devices',
@@ -23,9 +23,9 @@ export const PRICING_PLANS = [
     period: '/ mo',
     featured: false,
     features: [
-      'Unlimited Bandwitch',
+      'Unlimited Bandwidth',
       'Encrypted Connection',
-      'Yes Traffic Logs',
+      'No Traffic Logs',
       'Works on All Devices',
       'Connect Anywhere',
     ],
@@ -37,9 +37,9 @@ export const PRICING_PLANS = [
     period: '/ mo',
     featured: true,
     features: [
-      'Unlimited Bandwitch',
+      'Unlimited Bandwidth',
       'Encrypted Connection',
-      'Yes Traffic Logs',
+      'No Traffic Logs',
       'Works on All Devices',
       'Connect Anywhere',
       'Get New Features',
