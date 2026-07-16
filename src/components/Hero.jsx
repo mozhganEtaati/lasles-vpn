@@ -5,12 +5,12 @@ function Hero() {
     <section className="mx-auto max-w-6xl px-6 pt-10 pb-24 md:pt-16">
       <div className="grid items-center gap-12 md:grid-cols-2">
         <div>
-          <h1 className="text-4xl leading-tight font-bold text-brand-navy md:text-5xl">
-            Want anything to be easy with <b>LaslesVPN</b>.
+          <h1 className="text-[38px] font-medium leading-[1.2] text-brand-navy md:text-[50px]">
+            Want anything to be easy with <b className="font-bold">LaslesVPN</b>.
           </h1>
-          <p className="mt-6 max-w-md text-brand-gray">
-            Provide a network for all your needs with ease and fun using 
-            <b> LaslesVPN</b> discover interesting features from us.
+          <p className="mt-5 max-w-[560px] text-base leading-[30px] text-brand-gray">
+            Provide a network for all your needs with ease and fun using{' '}
+            <b className="font-medium whitespace-nowrap">LaslesVPN</b> discover interesting features from us.
           </p>
           <a
             href="#signup"
