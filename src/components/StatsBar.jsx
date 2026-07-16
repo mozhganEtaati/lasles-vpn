@@ -23,7 +23,7 @@ function StatsBar() {
             <span className="flex h-[55px] w-[55px] shrink-0 items-center justify-center rounded-full bg-[#ffecec] text-brand-red">
               <Icon className="text-2xl" />
             </span>
-            <div className="text-left">
+            <div className="w-24 text-left sm:w-auto">
               <p className="text-xl font-semibold text-brand-navy">{value}</p>
               <p className="text-sm text-brand-gray">{label}</p>
             </div>
